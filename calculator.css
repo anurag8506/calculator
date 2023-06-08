@@ -1,0 +1,52 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(23, 158, 176);
+    font-size: 50px;
+    font-weight: bold;
+}
+.calculator{
+    text-align: center;
+    background-color: rgb(38, 36, 149);
+    width: 450px;
+    height: 460px;
+    margin-left:50px;
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+}
+#answer{
+    background-color: white;
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+
+}
+.calculator input{
+    font-size: 22px;
+    width: 62px;
+    height:62px ;
+    color: black;
+    background-color:skyblue ;
+    margin:10px;
+    padding: 12px;
+    border-radius: 15px solid;
+}
+input[type="button"]:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+
+}
+input[class="btn-red"]{
+    background-color: rgb(38, 175, 234);
+}
+input[class="btn-green"]{
+    background-color:rgb(217, 54, 138);
+}
